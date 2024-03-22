@@ -3,103 +3,158 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
+    <title>Document</title>
 </head>
 <body>
-    <header>
-        <div>
-            <img src="" alt="Profile Picture">
-            <span>Web Developer</span>
-        </div>
-        <div>
-            <p>Personal Details</p>
-            <ul>
-                <li>
-                    <svg>
-                        <use href="./images/icons.svg#phone"></use>
-                    </svg>
-                    <span>+63906 489 1148 / +63999 985 6634</span>
-                </li>
-                <li>
-                    <svg>
-                        <use href="./images/icons.svg#envelope"></use>
-                    </svg>
-                    <span>nicocbnora@gmail.com </span>
-                </li>
-                <li>
-                    <svg>
-                        <use href="./images/icons.svg#placeholder"></use>
-                    </svg>
-                    <span>Tuguegarao City, Cagayan, Philippines</span>
-                </li>
-            </ul>
-        </div>
-        <div>
-            <p>Follow me @</p>
-            <ul>
-               <li>
-                    <svg>
-                        <use href="./images/icons.svg#facebook"></use>
-                    </svg> 
-               </li>
-               <li>
-                    <svg>
-                        <use href="./images/icons.svg#instagram"></use>
-                    </svg> 
-                </li>
-                <li>
-                    <svg>
-                        <use href="./images/icons.svg#twitter"></use>
-                    </svg> 
-               </li>
-               <li>
-                    <svg>
-                        <use href="./images/icons.svg#linkedin"></use>
-                    </svg> 
-                </li>  
-            </ul>
-        </div>
-    </header>
-    <main>
-        <section>
-            <h1>Nicholai Christopher B. Nora</h1>
-            <p>enthusiastic about learning and contributing to innovative web projects. Eager to apply my foundational knowledge in HTML, CSS, and JavaScript, along with my passion for continuous learning, to grow and excel in a dynamic development environment.</p>
-        </section>
-        <section>
-            <h3>Skills</h3>
-            <ul>
-                <li>
-                    <p>Front-end Development</p>        
-                </li>
-                <li>
-                    <p>Back-end Development</p>        
-                </li>
-                <li>
-                    <p>Search Engine Optimization</p>        
-                </li>
-            </ul>
-        </section>
-        <section>
-            <h3>Educational Background</h3>
-            <ul>
-                <li>
-                    <h4>Bachelor of Science in Electronics and Communications Engineering</h4>
-                    <p>University of Saint Louis Tuguegarao</p>
-                    <span>2011 - 2016</span>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <h4>Bachelor of Science in Electronics and Communications Engineering</h4>
-                    <p>University of Saint Louis Tuguegarao</p>
-                    <span>2011 - 2016</span>
-                </li>
-            </ul>
-        </section>
-    </main>
-    <footer>
-
-    </footer>
+    <div align="center">
+        <h1>===== Price List =====</h1>
+        <br>
+        <table>
+            <thead>
+                <tr>
+                    <th>Food Item</th>
+                    <th width="100"></th>  
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Adobong Baboy</td>
+                    <th width="100"></th>  
+                    <td>P80</td>
+                </tr>
+                <tr>
+                    <td>Tinolang Manok</td>
+                    <th width="100"></th>
+                    <td>P70</td>
+                </tr>
+                <tr>
+                    <td>Beef Pares</td>
+                    <th width="100"></th>
+                    <td>P70</td>
+                </tr>
+                <tr>
+                    <td>Fried Tofu</td>
+                    <th width="100"></th>
+                    <td>P30</td>
+                </tr>
+                <tr>
+                    <td>Pancit Bihon</td>
+                    <th width="100"></th>
+                    <td>P30</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <br>
+        <h2>KARINDERYA ORDER FORM</h2>
+        <br>
+        <form>
+            <table>
+                <thead>
+                <tr>
+                    <th>Food Item</th>
+                    <th width="50"></th>
+                    <th>Quantity</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>
+                        <label for="food">Item 1:</label>
+                        <select name="food" id="food">
+                          <option value="Adobong Baboy">Adobong Baboy</option>
+                          <option value="Tinolang Manok">Tinolang Manok</option>
+                          <option value="Beef Pares">Beef Pares</option>
+                          <option value="Fried Tofu">Fried Tofu</option>
+                          <option value="Pancit Bihon">Pancit Bihon</option>
+                        </select>
+                    </td>
+                    <td></td>
+                    <td>
+                        <label for="quantity">
+                        <input type="text" id="quantity" name="quantity" min="1" max="100" size="20" value="0">
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="food">Item 2:</label>
+                        <select name="food" id="food">
+                          <option value="Adobong Baboy">Adobong Baboy</option>
+                          <option value="Tinolang Manok">Tinolang Manok</option>
+                          <option value="Beef Pares">Beef Pares</option>
+                          <option value="Fried Tofu">Fried Tofu</option>
+                          <option value="Pancit Bihon">Pancit Bihon</option>
+                        </select>
+                    </td>
+                    <td></td>
+                    <td>
+                        <label for="quantity">
+                        <input type="text" id="quantity" name="quantity" min="1" max="100" size="20" value="0">
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="food">Item 3:</label>
+                        <select name="food" id="food">
+                          <option value="Adobong Baboy">Adobong Baboy</option>
+                          <option value="Tinolang Manok">Tinolang Manok</option>
+                          <option value="Beef Pares">Beef Pares</option>
+                          <option value="Fried Tofu">Fried Tofu</option>
+                          <option value="Pancit Bihon">Pancit Bihon</option>
+                        </select>
+                    </td>
+                    <td></td>
+                    <td>
+                        <label for="quantity">
+                        <input type="text" id="quantity" name="quantity" min="1" max="100" size="20" value="0">
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="food">Item 4:</label>
+                        <select name="food" id="food">
+                          <option value="Adobong Baboy">Adobong Baboy</option>
+                          <option value="Tinolang Manok">Tinolang Manok</option>
+                          <option value="Beef Pares">Beef Pares</option>
+                          <option value="Fried Tofu">Fried Tofu</option>
+                          <option value="Pancit Bihon">Pancit Bihon</option>
+                        </select>
+                    </td>
+                    <td></td>
+                    <td>
+                        <label for="quantity">
+                        <input type="text" id="quantity" name="quantity" min="1" max="100" size="20" value="0">
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="food">Item 5:</label>
+                        <select name="food" id="food">
+                          <option value="Adobong Baboy">Adobong Baboy</option>
+                          <option value="Tinolang Manok">Tinolang Manok</option>
+                          <option value="Beef Pares">Beef Pares</option>
+                          <option value="Fried Tofu">Fried Tofu</option>
+                          <option value="Pancit Bihon">Pancit Bihon</option>
+                        </select>
+                    </td>
+                    <td></td>
+                    <td>
+                        <label for="quantity">
+                        <input type="text" id="quantity" name="quantity" min="1" max="100" size="20" value="0">
+                        </label>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <br>
+            <br>
+            <input type="submit" value="SUBMIT">
+        </form>
+    </div>
 </body>
-</html>
 </html>
