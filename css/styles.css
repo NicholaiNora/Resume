@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  address {
+    font-style: normal;
+  }
+  
+  img {
+    min-height: auto;
+    max-width: 100%;
+    object-fit: cover;
+    border: 0;
+  }
+  
+  body {
+    color: #1c1e21;
+    font-family: Arial;
+    direction: ltr;
+  }
+
+  .main-section {
+    padding: 72px 0 112px;
+    height: 720px;
+    background: #f0f2f5;
+    min-width: 500px;
+  }
+  
+  .main-container {
+    width: 980px;
+    position: relative;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: block;
+    /* display: flex; */
+  }
+
+  
+  .logo-heading-container {
+    display: inline-block;
+    width: 580px;
+    margin-right: 0;
+    padding-right: 32px;
+    vertical-align: top;
+  }
+
+  .logo-container {
+    padding: 112px 0 16px;
+  }
+
+  .logo {
+    height: 106px;
+    margin: -28px;
+  }
+
+  .heading {
+    width: 500px;
+    height: 84px;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    color: #1c1e21;
+    padding-bottom: 20px;
+    
+  }
+
+  .credential-container {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .login-container {
+    height: 456px;
+    width: 396px;
+  }
