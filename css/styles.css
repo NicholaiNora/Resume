@@ -39,6 +39,7 @@
     direction: ltr;
   }
 
+
   .main-section {
     padding: 72px 0 112px;
     height: 720px;
@@ -48,24 +49,24 @@
   
   .main-container {
     width: 980px;
-    position: relative;
+    height: 536px;
     margin: 0 auto;
     padding: 20px 0;
-    display: block;
+    
     /* display: flex; */
   }
-
   
   .logo-heading-container {
     display: inline-block;
-    width: 580px;
     margin-right: 0;
     padding-right: 32px;
     vertical-align: top;
+    margin: 0 auto;
   }
 
   .logo-container {
     padding: 112px 0 16px;
+    width: 548px;
   }
 
   .logo {
@@ -85,11 +86,81 @@
   }
 
   .credential-container {
-    display: inline-block;
+    float: right;
     vertical-align: top;
   }
 
   .login-container {
     height: 456px;
     width: 396px;
+  }
+
+  .form-container {
+    padding-bottom: 24px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 2px;
+    width: 396px;
+  }
+
+  .input-container {
+    padding: 6px 0;
+    width: 364px;
+    margin: 0 auto;
+    
+  }
+
+  .button-container {
+    padding: 6px 0 0;
+  }
+
+  input[type="email"], input[type="password"] {
+    background: #FFFFFF url(/rsrc.php/v3/yU/r/O7nelmd9XSI.png) repeat-x;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 364px;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    height: 50px;
+    line-height: 16px;
+    vertical-align: middle;
+    outline: none;
+  }
+
+  input[type="email"]:focus, input[type="password"]:focus {
+    box-shadow: 0px 0px 0px 1.5px #E7F3FF;
+    border-color: #1877F2;
+  }
+
+  input[type="email"]:focus::placeholder, input[type="password"]:focus::placeholder {
+   color: rgba(29, 33, 41, 0.3);
+  }
+
+  input[type="email"]::placeholder, input[type="password"]::placeholder {
+   color: rgba(29, 33, 41, 0.5);
+  }
+
+  .button {
+    background-color: #0866ff;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 364px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .button:hover {
+    background-color: #1877f2;
+    border-color: #365899
   }
